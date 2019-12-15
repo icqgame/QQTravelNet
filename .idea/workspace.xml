@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12232cff-e54a-48a9-a2c9-60de1eb0e845" name="Default Changelist" comment="修改验证码描述字符串">
+    <list default="true" id="56de927e-7b81-48ef-8de8-63e018b81803" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/junitgenerator-prj-settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -10,25 +14,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$/.." value="master" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="64e14efc-ceb5-4807-8b1a-6457dc2a7b99" />
-  </component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="hiddenUrls">
-      <set>
-        <option value="https://github.com/icqgame/IdeaProjectsRepository.git" />
-      </set>
-    </option>
-  </component>
-  <component name="ProjectId" id="1V0NmGNDJ4XnEcJwYJ5FpDqPVq1" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1V1GFrnMwEihzYFR9eJK1ycidF5" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -36,12 +24,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -60,79 +46,25 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="12232cff-e54a-48a9-a2c9-60de1eb0e845" name="Default Changelist" comment="" />
-      <created>1576386209645</created>
+      <changelist id="56de927e-7b81-48ef-8de8-63e018b81803" name="Default Changelist" comment="" />
+      <created>1576413086470</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1576386209645</updated>
-      <workItem from="1576386211062" duration="2969000" />
-      <workItem from="1576398111392" duration="2884000" />
-      <workItem from="1576405502068" duration="701000" />
+      <updated>1576413086470</updated>
+      <workItem from="1576413087796" duration="892000" />
     </task>
-    <task id="LOCAL-00001" summary="我更改了验证码的提示字符">
-      <created>1576398518628</created>
+    <task id="LOCAL-00001" summary="修改项目配置文件名day20-&gt;QQTravelNet">
+      <created>1576413172327</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1576398518628</updated>
+      <updated>1576413172327</updated>
     </task>
-    <task id="LOCAL-00002" summary="我再次更改了验证码的提示字符">
-      <created>1576398805534</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1576398805534</updated>
-    </task>
-    <task id="LOCAL-00003" summary="加2">
-      <created>1576404253608</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1576404253608</updated>
-    </task>
-    <task id="LOCAL-00004" summary="修改验证码提示文字">
-      <created>1576404514757</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1576404514757</updated>
-    </task>
-    <task id="LOCAL-00005" summary="201912151806">
-      <created>1576405037211</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1576405037211</updated>
-    </task>
-    <task id="LOCAL-00006" summary="idea配置文件上传">
-      <created>1576405569001</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1576405569001</updated>
-    </task>
-    <task id="LOCAL-00007" summary="修改验证码描述字符串">
-      <created>1576405717112</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1576405717112</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="Vcs.Log.History.Properties">
-    <option name="COLUMN_ORDER">
-      <list>
-        <option value="0" />
-        <option value="2" />
-        <option value="3" />
-        <option value="1" />
-      </list>
-    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -150,10 +82,10 @@
                       </list>
                     </value>
                   </entry>
-                  <entry key="structure">
+                  <entry key="roots">
                     <value>
                       <list>
-                        <option value="dir:C:/Users/wangl/IdeaProjects/day20" />
+                        <option value="$PROJECT_DIR$" />
                       </list>
                     </value>
                   </entry>
@@ -162,59 +94,31 @@
             </State>
           </value>
         </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
       </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="我更改了验证码的提示字符" />
-    <MESSAGE value="我再次更改了验证码的提示字符" />
-    <MESSAGE value="加2" />
-    <MESSAGE value="修改验证码提示文字" />
-    <MESSAGE value="201912151806" />
-    <MESSAGE value="idea配置文件上传" />
-    <MESSAGE value="修改验证码描述字符串" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改验证码描述字符串" />
+    <MESSAGE value="修改项目配置文件名day20-&gt;QQTravelNet" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改项目配置文件名day20-&gt;QQTravelNet" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="238" key="#Notifications" timestamp="1576396108661">
+    <state x="560" y="175" key="CommitChangelistDialog2" timestamp="1576413171240">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="552" y="238" key="#Notifications/0.0.1920.1160@0.0.1920.1160" timestamp="1576396108661" />
-    <state x="374" y="78" width="1332" height="954" key="CommitChangelistDialog2" timestamp="1576405716047">
+    <state x="560" y="175" key="CommitChangelistDialog2/0.0.1920.1160@0.0.1920.1160" timestamp="1576413171240" />
+    <state x="552" y="313" key="Vcs.Push.Dialog.v2" timestamp="1576413188554">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="374" y="78" width="1332" height="954" key="CommitChangelistDialog2/0.0.1920.1160@0.0.1920.1160" timestamp="1576405716047" />
-    <state x="98" y="40" width="1736" height="976" key="DiffContextDialog" timestamp="1576405957388">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state x="98" y="40" width="1736" height="976" key="DiffContextDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1576405957388" />
-    <state x="719" y="267" key="FileChooserDialogImpl" timestamp="1576396271983">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state x="719" y="267" key="FileChooserDialogImpl/0.0.1920.1160@0.0.1920.1160" timestamp="1576396271983" />
-    <state x="759" y="290" key="RollbackChangesDialog" timestamp="1576404312624">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state x="759" y="290" key="RollbackChangesDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1576404312624" />
-    <state x="440" y="154" key="SettingsEditor" timestamp="1576398319836">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state x="440" y="154" key="SettingsEditor/0.0.1920.1160@0.0.1920.1160" timestamp="1576398319836" />
-    <state x="552" y="313" key="Vcs.Push.Dialog.v2" timestamp="1576405736037">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state x="552" y="313" key="Vcs.Push.Dialog.v2/0.0.1920.1160@0.0.1920.1160" timestamp="1576405736037" />
-    <state x="750" y="314" key="VcsDiffUtil.ChangesDialog" timestamp="1576404365522">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state x="750" y="314" key="VcsDiffUtil.ChangesDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1576404365522" />
-    <state x="640" y="404" key="com.intellij.ide.util.TipDialog" timestamp="1576405540407">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state x="640" y="404" key="com.intellij.ide.util.TipDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1576405540407" />
-    <state x="628" y="371" key="git4idea.merge.GitPullDialog" timestamp="1576404976907">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state x="628" y="371" key="git4idea.merge.GitPullDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1576404976907" />
+    <state x="552" y="313" key="Vcs.Push.Dialog.v2/0.0.1920.1160@0.0.1920.1160" timestamp="1576413188554" />
   </component>
 </project>
