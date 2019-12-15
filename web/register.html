@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册用户名</title>
+    <style type="text/css">
+
+        a {
+            text-decoration: none
+
+        }
+
+        a:hover {
+            background-color: coral;
+            color: #FFF
+        }
+
+
+        div {
+            border: 3px solid goldenrod;
+            width: 600px;
+            height: 400px;
+            background-color: white;
+            margin: 50px auto;
+            padding: 60px;
+        }
+
+        input {
+
+
+            height: 30px;
+        }
+
+        tr {
+            height: 40px;
+        }
+
+        input[type="text"] {
+            width: 300px;
+        }
+
+        input[type="password"] {
+            width: 300px;
+        }
+
+        input[type="email"] {
+            width: 300px;
+        }
+        span{
+            font-size: 12px;
+            padding-bottom: 10px ;
+        }
+
+    </style>
+    <script type="text/javascript">
+        window.onload = function () {
+
+
+        }
+
+        function checkUserName(){
+
+            var oUserName = document.getElementById("username")
+            var oUserNameValue = oUserName.value;
+
+            var reg=/^[0-9a-zA-Z]{6,10}$/;
+            var tmp = document.getElementById("usernamespan")
+            if (reg.test(oUserNameValue)){
+                oUserName.style.borderColor="black";
+                oUserName.style.borderWidth="1px";
+                tmp.innerHTML="√";
+                tmp.style.color="green";
+                return true;
+
+            }else{
+                oUserName.style.borderColor="red";
+                oUserName.style.borderWidth="1px";
+                tmp.innerHTML="用户名必须是6-10位的字母或者数字";
+                tmp.style.color="red";
+
+            }
+
+        }
+
+       /* function check() {
+
+            var oUserName = document.getElementById("username");
+            var oPassWord = document.getElementById("password");
+            var oRePassWord = document.getElementById("repassword");
+            var oEmail = document.getElementById("email");
+            var oName = document.getElementById("name");
+            var oCheck = document.getElementById("checkbox");
+            var username_val = oUserName.value;
+            var password_val = oPassWord.value;
+            var oRePassWord_val = oRePassWord.value;
+            var oEmail_val = oEmail.value;
+            var oName_val = oName.value;
+            var oCheck_val = oCheck.value;
+            if (username_val == '') {
+                alert("用户名不能为空!")
+                return false;
+            }
+            if (password_val == '') {
+                alert("密码不能为空!")
+                return false;
+            }
+            if (password_val != oRePassWord_val){
+                alert("两次输入的密码不一致")
+                return false;
+            }
+            if (oEmail_val == '') {
+                alert("邮箱不能为空!")
+                return false;
+            }
+            if (oName_val == '') {
+                alert("姓名不能为空!")
+                return false;
+            }
+            if (oCheck_val == '') {
+                alert("验证码不能为空!")
+                return false;
+            }
+            return true;
+
+        }*/
+    </script>
+</head>
+<body>
+<table border="0" cellpadding="0px" cellspacing="0px" width="100%">
+    <tr>
+        <td>
+            <img src="img/top_banner.jpg" alt="" width="100%">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <table border="0" cellpadding="0px" cellspacing="0px" width="100%">
+                <tr align="center">
+                    <td align="left">
+                        <img src="img/logo.jpg" alt="" width="283.5" height="100.8">
+                    </td>
+                    <td>
+                        <table bgcolor="FFC900">
+                            <tr>
+                                <td height="5px">
+                                    <input style="height: 40px;font-size: 20px" type="search" size="60px"
+                                           placeholder="请输入..."/>
+                                </td>
+                                <td height="5px">
+                                    <font size="4px"><a href="http://ljwang.wicp.net">搜索</a></font>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td align="right">
+
+                        <img src="img/hotel_tel.png" alt="">
+                    </td>
+                </tr>
+            </table>
+
+
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <!--            门票	酒店	香港车票	出境游	国内游	港澳游	抱团定制	全球自由行	收藏排行榜-->
+            <table border="0" bgcolor="FFC900" width="100%">
+                <tr align="center">
+                    <td height="45px" width="10%">
+                        <a href="index.html">首页</a>
+                    </td>
+                    <td height="45px" width="10%">
+                        <a href="#">门票</a>
+                    </td>
+                    <td height="45px" width="10%">
+                        <a href="#">酒店</a>
+                    </td>
+                    <td height="45px" width="10%">
+                        <a href="#">香港车票</a>
+                    </td>
+                    <td height="45px" width="10%">
+                        <a href="#">出境游</a>
+                    </td>
+                    <td height="45px" width="10%">
+                        <a href="#">国内游</a>
+                    </td>
+                    <td height="45px" width="10%">
+                        <a href="#">港澳游</a>
+                    </td>
+                    <td height="45px" width="10%">
+                        <a href="#">抱团定制</a>
+                    </td>
+                    <td height="45px" width="10%">
+                        <a href="#">全球自由行</a>
+                    </td>
+                    <td height="45px" width="10%">
+                        <a href="register.html">注册用户名</a>
+                    </td>
+                </tr>
+            </table>
+
+
+        </td>
+    </tr>
+</table>
+<div>
+    <form action="#" method="get" onsubmit="return check()">
+        <table>
+            <tr>
+                <td><font color="blue" face="黑体" size="4px">会员注册</font></td>
+                <td colspan="2">USER REGISTER</td>
+
+            </tr>
+            <tr>
+                <td>用户名</td>
+                <td>
+                    <input type="text" name="username" placeholder="请输入用户名" id="username" onblur="checkUserName();">
+                </td>
+                <td><span id="usernamespan"></span></td>
+
+            </tr>
+            <tr>
+                <td>密码</td>
+                <td colspan="2">
+                    <input type="password" name="password" placeholder="请输入密码" id="password">
+                </td>
+            </tr>
+            <tr>
+                <td>确认密码</td>
+                <td colspan="2">
+                    <input type="password" name="repassword" placeholder="再次输入密码" id="repassword">
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td colspan="2">
+                    <input type="email" name="email" placeholder="请输入Email" id="email">
+                </td>
+            </tr>
+            <tr>
+                <td>姓名</td>
+                <td colspan="2">
+                    <input type="text" name="name" placeholder="请输入姓名" id="name">
+                </td>
+            </tr>
+            <tr>
+                <td>性别</td>
+                <td colspan="2">
+                    <input type="radio" name="sex" checked="checked" id="male"><label for="male">男</label>
+                    <input type="radio" name="sex" id="female"><label for="female">女</label>
+                </td>
+
+            </tr>
+            <tr>
+                <td>出生日期</td>
+                <td colspan="2"><input type="date" name="date" placeholder="请输入出生日期" id="borndate"></td>
+
+            </tr>
+            <tr>
+                <td>验证码</td>
+                <td><input type="text" name="checkbox" placeholder="请输入右图字母aa" id="checkbox" style="width: 210px"></td>
+                <td><img src="img/checkcode.jpg" alt=""></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="注册">
+                </td>
+                <td></td>
+            </tr>
+        </table>
+    </form>
+
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>琴琴旅游网</title>
+    <script type="text/javascript">
+
+        window.onload=function()
+        {
+            var adImg = document.getElementById("adImg");
+            //开启定时器，3s后弹出广告
+            window.setTimeout(function() {
+                //让广告显示就是设置display：block
+                adImg.style.display = "block";
+                //广告显示完成之后，在消失
+                window.setTimeout(function() {
+                    //让广告消失，设置display：none
+                    adImg.style.display = "none";
+                }, 3000);
+            }, 3000);
+
+            //2.获取轮播图的img标签
+            var img=document.getElementById("idImg");
+            //设置定时器在2s后改变图片
+            window.setInterval(changeImg,2000);
+            /*
+            * 定义一个变量作为更改图片的名字
+            * 由于页面一加载就执行代码：<img src="img/1.jpg" width="100%" id="idImg"/>
+            * 当页面都加载完成之后在执行这里的js代码，所以定义n=1
+            */
+            var n=1;
+            //自定义函数改变img地址
+            function changeImg()
+            {
+            /*
+            * 轮播图片初始化的地址：是img/1.jpg，过2s之后换成img/2.jpg，再过2s换成img/3.jpg
+            * 再过2s换成img/1.jpg，再过2s换成img/2.jpg。。。。。
+            * <img src="img/1.jpg" width="100%" id="idImg"/>
+            */
+            //更改n
+                n++;
+            //判断n的大小,如果n=4，继续更改n=1
+                if(n==4)
+                {
+                    n=1;
+                }
+                    img.src="img/banner_"+n+".jpg";
+                }
+        };
+
+
+    </script>
+    <style>
+
+        a {text-decoration: none
+
+        }
+
+        a:hover {
+            background-color : coral ;color: #FFF
+        }
+
+
+    </style>
+</head>
+<body>
+
+<table border="0" cellpadding="0px" cellspacing="0px" width="100%">
+    <tr>
+        <td>
+            <img src="img/ad.jpg" alt="" id="adImg" style="display: none">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="img/top_banner.jpg" alt="" width="100%">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <table border="0" cellpadding="0px" cellspacing="0px" width="100%">
+                <tr align="center">
+                    <td align="left">
+                        <img src="img/logo.jpg" alt="" width="283.5" height="100.8">
+                    </td>
+                    <td>
+                        <table bgcolor="FFC900" >
+                            <tr>
+                                <td height="5px">
+                                    <input style="height: 40px;font-size: 20px" type="search" size="60px" placeholder = "请输入..." />
+                                </td>
+                                <td height="5px">
+                                    <font size="4px"><a href="http://ljwang.wicp.net">搜索</a></font>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td align="right">
+
+                        <img src="img/hotel_tel.png" alt="">
+                    </td>
+                </tr>
+            </table>
+
+
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <!--            门票	酒店	香港车票	出境游	国内游	港澳游	抱团定制	全球自由行	收藏排行榜-->
+            <table border="0" bgcolor="FFC900" width="100%">
+                <tr align="center">
+                    <td height="45px" width="10%">
+                        <a href="index.html">首页</a>
+                    </td>
+                    <td height="45px" width="10%">
+                        <a href="#">门票</a>
+                    </td>
+                    <td height="45px" width="10%">
+                        <a href="#">酒店</a>
+                    </td>
+                    <td height="45px" width="10%">
+                        <a href="#">香港车票</a>
+                    </td>
+                    <td height="45px" width="10%">
+                        <a href="#">出境游</a>
+                    </td>
+                    <td height="45px" width="10%">
+                        <a href="#">国内游</a>
+                    </td>
+                    <td height="45px" width="10%">
+                        <a href="#">港澳游</a>
+                    </td>
+                    <td height="45px" width="10%">
+                        <a href="#">抱团定制</a>
+                    </td>
+                    <td height="45px" width="10%">
+                        <a href="#">全球自由行</a>
+                    </td>
+                    <td height="45px" width="10%">
+                        <a href="register.html">注册用户名</a>
+                    </td>
+                </tr>
+            </table>
+
+
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="img/banner_3.jpg" alt="" width="100%" id="idImg">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <table width="100%">
+                <tr>
+                    <td>
+                        <img src="img/icon_5.jpg" alt="">琴琴精选
+                        <hr color="FFC900" width="100%" />
+                    </td>
+                </tr>
+                <tr align="center">
+                    <td>
+                        <table cellspacing="15px">
+                            <tr>
+                                <td>
+                                    <img src="img/jiangxuan_1.jpg"><br/>
+                                    <p>上海直飞三亚5天4晚自由行(春节预售+<br/>亲子/蜜月/休闲游首选+豪华酒店任选+<br/>接送机)</p>
+                                    <font color="red">&yen;699</font>
+                                </td>
+                                <td>
+                                    <img src="img/jiangxuan_1.jpg"><br/>
+                                    <p>上海直飞三亚5天4晚自由行(春节预售+<br/>亲子/蜜月/休闲游首选+豪华酒店任选+<br/>接送机)</p>
+                                    <font color="red">&yen;699</font>
+                                </td>
+                                <td>
+                                    <img src="img/jiangxuan_1.jpg"><br/>
+                                    <p>上海直飞三亚5天4晚自由行(春节预售+<br/>亲子/蜜月/休闲游首选+豪华酒店任选+<br/>接送机)</p>
+                                    <font color="red">&yen;699</font>
+                                </td>
+                                <td>
+                                    <img src="img/jiangxuan_1.jpg"><br/>
+                                    <p>上海直飞三亚5天4晚自由行(春节预售+<br/>亲子/蜜月/休闲游首选+豪华酒店任选+<br/>接送机)</p>
+                                    <font color="red">&yen;699</font>
+                                </td>
+                                <td>
+                                    <img src="img/jiangxuan_1.jpg"><br/>
+                                    <p>上海直飞三亚5天4晚自由行(春节预售+<br/>亲子/蜜月/休闲游首选+豪华酒店任选+<br/>接送机)</p>
+                                    <font color="red">&yen;699</font>
+                                </td>
+
+
+
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="img/icon_6.jpg" alt="">国内游
+                        <hr color="FFC900" width="100%" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table align="center">
+                            <tr>
+                                <td>
+                                    <img src="img/guonei_1.jpg" alt="" width="400px">
+                                </td>
+                                <td>
+                                    <table align="center" width="100%">
+                                        <tr>
+                                            <td>
+                                                <img src="img/jingxuan_2.jpg"><br/>
+                                                <p>上海直飞三亚5天4晚自由行(春节预售+<br/>亲子/蜜月/休闲游首选+豪华酒店任选+<br/>接送机)</p>
+                                                <font color="red">&yen;699</font>
+                                            </td>
+                                            <td>
+                                                <img src="img/jingxuan_2.jpg"><br/>
+                                                <p>上海直飞三亚5天4晚自由行(春节预售+<br/>亲子/蜜月/休闲游首选+豪华酒店任选+<br/>接送机)</p>
+                                                <font color="red">&yen;699</font>
+                                            </td>
+                                            <td>
+                                                <img src="img/jingxuan_2.jpg"><br/>
+                                                <p>上海直飞三亚5天4晚自由行(春节预售+<br/>亲子/蜜月/休闲游首选+豪华酒店任选+<br/>接送机)</p>
+                                                <font color="red">&yen;699</font>
+                                            </td>
+                                            <td>
+                                                <img src="img/jingxuan_2.jpg"><br/>
+                                                <p>上海直飞三亚5天4晚自由行(春节预售+<br/>亲子/蜜月/休闲游首选+豪华酒店任选+<br/>接送机)</p>
+                                                <font color="red">&yen;699</font>
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img src="img/jingxuan_2.jpg"><br/>
+                                                <p>上海直飞三亚5天4晚自由行(春节预售+<br/>亲子/蜜月/休闲游首选+豪华酒店任选+<br/>接送机)</p>
+                                                <font color="red">&yen;699</font>
+                                            </td>
+                                            <td>
+                                                <img src="img/jingxuan_2.jpg"><br/>
+                                                <p>上海直飞三亚5天4晚自由行(春节预售+<br/>亲子/蜜月/休闲游首选+豪华酒店任选+<br/>接送机)</p>
+                                                <font color="red">&yen;699</font>
+                                            </td>
+                                            <td>
+                                                <img src="img/jingxuan_2.jpg"><br/>
+                                                <p>上海直飞三亚5天4晚自由行(春节预售+<br/>亲子/蜜月/休闲游首选+豪华酒店任选+<br/>接送机)</p>
+                                                <font color="red">&yen;699</font>
+                                            </td>
+                                            <td>
+                                                <img src="img/jingxuan_2.jpg"><br/>
+                                                <p>上海直飞三亚5天4晚自由行(春节预售+<br/>亲子/蜜月/休闲游首选+豪华酒店任选+<br/>接送机)</p>
+                                                <font color="red">&yen;699</font>
+                                            </td>
+
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="img/icon_7.jpg" alt="">境外游
+                        <hr color="FFC900" width="100%" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table align="center">
+                            <tr>
+                                <td>
+                                    <img src="img/jiangwai_1.jpg" alt="" width="400px">
+                                </td>
+                                <td>
+                                    <table align="center" width="100%">
+                                        <tr>
+                                            <td>
+                                                <img src="img/jiangxuan_5.jpg"><br/>
+                                                <p>上海直飞三亚5天4晚自由行(春节预售+<br/>亲子/蜜月/休闲游首选+豪华酒店任选+<br/>接送机)</p>
+                                                <font color="red">&yen;699</font>
+                                            </td>
+                                            <td>
+                                                <img src="img/jiangxuan_5.jpg"><br/>
+                                                <p>上海直飞三亚5天4晚自由行(春节预售+<br/>亲子/蜜月/休闲游首选+豪华酒店任选+<br/>接送机)</p>
+                                                <font color="red">&yen;699</font>
+                                            </td>
+                                            <td>
+                                                <img src="img/jiangxuan_5.jpg"><br/>
+                                                <p>上海直飞三亚5天4晚自由行(春节预售+<br/>亲子/蜜月/休闲游首选+豪华酒店任选+<br/>接送机)</p>
+                                                <font color="red">&yen;699</font>
+                                            </td>
+                                            <td>
+                                                <img src="img/jiangxuan_5.jpg"><br/>
+                                                <p>上海直飞三亚5天4晚自由行(春节预售+<br/>亲子/蜜月/休闲游首选+豪华酒店任选+<br/>接送机)</p>
+                                                <font color="red">&yen;699</font>
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img src="img/jiangxuan_4.jpg"><br/>
+                                                <p>上海直飞三亚5天4晚自由行(春节预售+<br/>亲子/蜜月/休闲游首选+豪华酒店任选+<br/>接送机)</p>
+                                                <font color="red">&yen;699</font>
+                                            </td>
+                                            <td>
+                                                <img src="img/jiangxuan_4.jpg"><br/>
+                                                <p>上海直飞三亚5天4晚自由行(春节预售+<br/>亲子/蜜月/休闲游首选+豪华酒店任选+<br/>接送机)</p>
+                                                <font color="red">&yen;699</font>
+                                            </td>
+                                            <td>
+                                                <img src="img/jiangxuan_4.jpg"><br/>
+                                                <p>上海直飞三亚5天4晚自由行(春节预售+<br/>亲子/蜜月/休闲游首选+豪华酒店任选+<br/>接送机)</p>
+                                                <font color="red">&yen;699</font>
+                                            </td>
+                                            <td>
+                                                <img src="img/jiangxuan_4.jpg"><br/>
+                                                <p>上海直飞三亚5天4晚自由行(春节预售+<br/>亲子/蜜月/休闲游首选+豪华酒店任选+<br/>接送机)</p>
+                                                <font color="red">&yen;699</font>
+                                            </td>
+
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="img/footer_service.png" alt="" width="100%">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <table bgcolor="FFC900" width="100%" >
+                <tr align="center">
+                    <td height="45px">
+                        <font >上海王琴文化股份有限公司 版权所有Copyright 2006-2019, All Rights Reserved 沪ICP备16007882</font>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
